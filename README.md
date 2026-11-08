@@ -45,6 +45,16 @@ npx vitest --run nama/file.test.js
 npx vitest
 ```
 
-
 contoh di file:
 - [tests/sample.test.ts](tests/sample.test.ts)
+
+# Configuration
+## Configuration
+- Walaupun Vitest tidak butuh konfigurasi file untuk digunakan secara default
+- Namun kadang kita ingin menambahkan konfigurasi yang berbeda dari default nya
+- Kita bisa tambahkan file vitest.config.js
+- Semua konfigurasi yang bisa kita lakukan, bisa kita lihat di halaman ini :
+- [https://vitest.dev/config/](https://vitest.dev/config/)
+
+contoh di file:
+- [vitest.config.js](vitest.config.js)
