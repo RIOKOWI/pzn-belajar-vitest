@@ -150,3 +150,15 @@ contoh di file:
 - [vitest.config.js](vitest.config.js)
 - [src/scripts/sayHello.ts](src/scripts/sayHello.ts)
 - [tests/coverage.test.ts](tests/coverage.test.ts)
+
+
+# Vitest UI
+## Vitest UI
+- Salah satu fitur menarik di Vitest adalah Vitest UI
+- Vitest UI adalah Web Dashboard untuk memonitor Unit Test yang kita buat, mana yang sukses , mana yang gagal
+- Kita juga bisa menjalankan Unit Test melalui web yang sudah disediakan oleh Vitest UI
+- Kita bisa menjalankan Vitest UI ketika menjalankan Vitest dengan tambahkan parameter --ui, misal :
+```bash
+npx vitest --ui
+```
+
