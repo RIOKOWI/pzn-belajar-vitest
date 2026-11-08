@@ -114,3 +114,19 @@ contoh di file:
 
 contoh di file:
 - [tests/mock.test.ts](tests/mock.test.ts)
+
+# Benchmarking
+## Benchmarking
+- Salah satu fitur yang menarik di Vitest adalah, Benchmarking
+- Benchmarking adalah melakukan performance test terhadap kode yang kita buat
+- Benchmarking bisa digunakan untuk menjalankan kode kita berulang kali, sehingga kita bisa melihat performa kecepatan dari kode yang sudah kita buat
+- Untuk membuat benchmark, kita harus menggunakan format file dengan akhiran .bench.ts/js atau .benchmark.js/ts
+- Dan untuk menjalankan Benchmarking, kita harus menggunakan perintah :
+```bash
+npx vitest bench --run namafile
+```
+- PERLU DIINGAT, fitur Benchmarking masih experimental, jadi bisa dimungkinkan kedepannya akan berubah
+
+contoh di file:
+- [vitest.config.js](vitest.config.js)
+- [tests/sayHello.bench.ts](tests/sayHello.bench.ts)
