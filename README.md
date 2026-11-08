@@ -86,3 +86,20 @@ contoh di file:
 
 contoh di file:
 - [tests/slow.test.ts](tests/slow.test.ts)
+
+
+# Chai
+## Jest Expect
+- Saat kita menggunakan Expect di Vitest, cara penggunaannya mirip dengan di Jest Expect
+- Namun, selain kompatibel dengan Jest Expect, Vitest juga menggunakan library Chai untuk fitur Expect
+
+
+## Chai
+- Chai adalah test assertions yang populer, karena penggunaannya sangat mudah dan mudah untuk dibaca juga
+- [https://www.chaijs.com/](https://www.chaijs.com/)
+- Chai memiliki fitur expect dan juga assert, dan kita bisa import dari package vitest, dan secara otomatis kita bisa menggunakan fitur expect dan assert Chai
+- [https://www.chaijs.com/api/bdd/](https://www.chaijs.com/api/bdd/)
+- [https://www.chaijs.com/api/assert/](https://www.chaijs.com/api/assert/)
+
+contoh di file:
+- [tests/chai.test.ts](tests/chai.test.ts)
