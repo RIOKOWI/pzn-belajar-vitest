@@ -38,6 +38,13 @@ npm install --save-dev vitest
 npx vitest --run nama/file.test.js
 ```
 
+## Watch Mode
+- Vitest memiliki fitur Watch Mode, yaitu bisa mendeteksi perubahan yang terjadi pada file Unit Test, dan secara otomatis akan menjalankan unit test ulang
+- Kita bisa menggunakan perintah berikut untuk menjalankan Vitest dalam Watch Mode :
+```bash
+npx vitest
+```
+
 
 contoh di file:
-[]()
+- [tests/sample.test.ts](tests/sample.test.ts)
