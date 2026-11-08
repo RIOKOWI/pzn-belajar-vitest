@@ -1,0 +1,29 @@
+# Vitest
+[https://docs.google.com/presentation/d/1c0D8SAtrsh3eQIe7E_anYStCxj6KPJWodaZxxVyC7-E/edit](https://docs.google.com/presentation/d/1c0D8SAtrsh3eQIe7E_anYStCxj6KPJWodaZxxVyC7-E/edit)
+
+
+
+# Pengenalan Vitest
+## Pengenalan Vitest
+- Vitest adalah unit test framework yang sangat cepat yang dipersembahkan oleh Vite
+- Vitest mirip dengan unit test framework lainnya, seperti Jest, Mocha, dan lain-lain
+- Vitest secara default mendukung JavaScript Module
+- Vitest juga terintegrasi dengan baik dengan TypeScript
+- [https://vitest.dev/](https://vitest.dev/)
+
+## Kenapa Vitest
+- Vitest sangat cepat, mendukung parallel testing, sehingga bisa menjalankan unit test dengan sangat cepat
+- Compatible dengan Jest, sehingga kita tidak perlu belajar lagi jika sudah terbiasa menggunakan Jest
+- Vitest sangat ringan, dan sangat berhati-hati ketika menambahkan dependency, agar tetap cepat
+- Terintegrasi baik dengan Vite
+
+# Membuat Project
+## Membuat Project
+```bash
+npm create vite@latest
+```
+
+## Menambah Vitest
+```bash
+npm install --save-dev vitest
+```
