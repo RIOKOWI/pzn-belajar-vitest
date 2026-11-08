@@ -27,3 +27,17 @@ npm create vite@latest
 ```bash
 npm install --save-dev vitest
 ```
+
+# Menjalankan Unit Test
+## Default Configuration
+- Secara default, kita tidak butuh menambahkan konfigurasi apapun ketika menggunakan Vitest
+- Setelah menginstall Vitest, kita bisa langsung menggunakan Vitest untuk menjalankan file unit test
+- Sama seperti Jest, Vitest secara default akan menjalankan unit test untuk file dengan akhiran test.js/ts atau spec.js/ts
+- Untuk menjalankan unit test menggunakan Vitest, kita bisa menggunakan perintah :
+```bash
+npx vitest --run nama/file.test.js
+```
+
+
+contoh di file:
+[]()
