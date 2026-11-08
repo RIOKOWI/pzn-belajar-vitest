@@ -130,3 +130,23 @@ npx vitest bench --run namafile
 contoh di file:
 - [vitest.config.js](vitest.config.js)
 - [tests/sayHello.bench.ts](tests/sayHello.bench.ts)
+
+
+
+# Coverage
+## Coverage
+- Sama seperti di Jest, Vitest juga memiliki fitur Coverage untuk mendeteksi Coverage Unit Test yang sudah kita buat
+- Dengan begitu kita bisa lihat kode mana yang belum ter-cover oleh Unit Test yang sudah kita buat
+- Vitest support library V8 atau Istambul sebagai library untuk melakukan Code Coverage
+- [https://v8.dev/blog/javascript-code-coverage](https://v8.dev/blog/javascript-code-coverage)
+- [https://istanbul.js.org/](https://istanbul.js.org/)
+- Kita bisa memilih library apa yang mau kita gunakan pada file konfigurasi, namun secara default yang dipilih adalah V8
+- Untuk melakukan Code Coverage tambahkan --coverage ketika menjalankan vitest, misal :
+```bash
+npx vitest --run --coverage namafile
+```
+
+contoh di file:
+- [vitest.config.js](vitest.config.js)
+- [src/scripts/sayHello.ts](src/scripts/sayHello.ts)
+- [tests/coverage.test.ts](tests/coverage.test.ts)
