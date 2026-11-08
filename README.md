@@ -58,3 +58,13 @@ contoh di file:
 
 contoh di file:
 - [vitest.config.js](vitest.config.js)
+
+# Jest Compatible
+## Jest Compatible
+- API yang dibuat Vitest kompatibel dengan API Jest, dengan begitu untuk menggunakan Vitest, sama seperti kita menggunakan Jest
+- Namun pada kode sebelumnya, kita melakukan import describe, it, dan expect dari package Vitest, sedangkan di Jest, secara default function-function tersebut sudah terdaftar di global scope
+- Kita juga bisa melakukan hal yang sama dengan mengubah konfigurasi dari Vitest
+
+contoh di file:
+- [vitest.config.js](vitest.config.js)
+- [tests/global.test.js](tests/global.test.js)
