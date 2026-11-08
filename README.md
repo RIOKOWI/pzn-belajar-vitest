@@ -65,6 +65,24 @@ contoh di file:
 - Namun pada kode sebelumnya, kita melakukan import describe, it, dan expect dari package Vitest, sedangkan di Jest, secara default function-function tersebut sudah terdaftar di global scope
 - Kita juga bisa melakukan hal yang sama dengan mengubah konfigurasi dari Vitest
 
+## Fitur Jest Lainnya
+- Hampir semua fitur Jest didukung oleh Vitest, dan cara penggunaannya sama, seperti
+- Timeout pada Test Function
+- Concurrent Test
+- Skip Test
+- Dan lain-lain
+
+
 contoh di file:
 - [vitest.config.js](vitest.config.js)
 - [tests/global.test.js](tests/global.test.js)
+
+
+# Multi-Threading
+## Multi-Threading
+- Secara default, Vitest menjalankan unit test menggunakan multi thread, dimana unit test akan dijalankan pada Worker Thread, berbeda dari Thread utama
+- Walaupun dijalankan di Worker Thread yang berbeda, namun tetap secara default Vitest akan menjalankan unit test satu per satu, karena kebanyakan programmer membuat unit test yang sequential
+- Namun, pada kasus jika kita tidak butuh berjalan secara sequential, kita bisa gunakan fitur Concurrent Test seperti di Jest
+
+contoh di file:
+- [tests/slow.test.ts](tests/slow.test.ts)
