@@ -103,3 +103,14 @@ contoh di file:
 
 contoh di file:
 - [tests/chai.test.ts](tests/chai.test.ts)
+
+
+# Mocking
+## Mocking
+- Di materi Jest, kita sudah bahas tentang Mocking, yaitu membuat object tiruan / palsu, sehingga memudahkan ketika kita mau melakukan test interaksi dengan object lain
+- Vitest juga mendukung Mocking
+- Vitest Mocking penggunaannya kompatibel dengan penggunakan Jest Mocking, sehingga kita bisa melakukan Mock Function, Mock Module dan Mock Class, seperti yang sudah dibahas di kelas NodeJS Unit Test
+
+
+contoh di file:
+- [tests/mock.test.ts](tests/mock.test.ts)
